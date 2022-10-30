@@ -12,7 +12,7 @@
 is an api crud of studies created with laravel
 
 ``sh
-public function index()
+    public function index()
     {
         return new SkillCollection(Skill::all());
     }
@@ -40,3 +40,5 @@ public function index()
         return response()->json("Skill Deleted");
     }
 
+
+you can see frontend code consuming [here](https://github.com/becardine/vue-rest-api)
